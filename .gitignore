@@ -1,4 +1,6 @@
 .alpackages/
+.altestrunner/
 .vscode/.alcache/
+.vscode/rad.json
 *.app
 .DS_Store
