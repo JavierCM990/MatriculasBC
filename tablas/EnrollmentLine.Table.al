@@ -1,0 +1,57 @@
+table 50003 "Enrollment Line"
+{
+    Caption = 'Detalle Matrícula';
+    DataClassification = CustomerContent;
+
+    fields
+    {
+        field(1; "Enrollment No."; Code[10])
+        {
+            Caption = 'No. Matrícula';
+            DataClassification = CustomerContent;
+            TableRelation = Enrollment."No.";
+        }
+        field(2; "Line No."; Integer)
+        {
+            Caption = 'No. Línea';
+            DataClassification = CustomerContent;
+        }
+        field(5; "Course No."; Code[10])
+        {
+            Caption = 'No. Asignatura';
+            DataClassification = CustomerContent;
+            TableRelation = Course."No.";
+        }
+        field(6; Description; Text[30])
+        {
+            Caption = 'Descripción';
+            DataClassification = CustomerContent;
+        }
+        field(10; Credits; Decimal)
+        {
+            Caption = 'Créditos';
+            DataClassification = CustomerContent;
+        }
+        field(11; Amount; Decimal)
+        {
+            Caption = 'Importe';
+            DataClassification = CustomerContent;
+        }
+    }
+
+    keys
+    {
+        key(PK; "Enrollment No.", "Line No.") { Clustered = true; }
+    }
+
+    trigger OnInsert()
+    var
+        EnrollmentLine: Record "Enrollment Line";
+    begin
+        EnrollmentLine.SetRange("Enrollment No.", "Enrollment No.");
+        if EnrollmentLine.FindLast() then
+            "Line No." := EnrollmentLine."Line No." + 10000
+        else
+            "Line No." := 10000;
+    end;
+}
