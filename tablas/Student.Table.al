@@ -45,6 +45,12 @@ table 50000 "Student"
             Caption = 'Comentario';
             DataClassification = CustomerContent;
         }
+        field(40; "Customer No."; Code[20])
+        {
+            Caption = 'No. Cliente';
+            DataClassification = CustomerContent;
+            TableRelation = Customer."No.";
+        }
     }
 
     keys

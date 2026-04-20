@@ -54,6 +54,33 @@ page 50000 "Student Card"
                     Caption = 'Comentario';
                     ApplicationArea = All;
                 }
+                field("Customer No."; Rec."Customer No.")
+                {
+                    Caption = 'No. Cliente';
+                    ApplicationArea = All;
+                    Editable = false;
+                }
+            }
+        }
+    }
+    actions
+    {
+        area(Processing)
+        {
+            action(CreateCustomer)
+            {
+                Caption = 'Crear Cliente';
+                ApplicationArea = All;
+                Image = Customer;
+                Promoted = true;
+                PromotedCategory = Process;
+
+                trigger OnAction()
+                var
+                    EnrollmentMgt: Codeunit "Enrollment Mgt.";
+                begin
+                    EnrollmentMgt.CreateCustomer(Rec);
+                end;
             }
         }
     }

@@ -20,16 +20,12 @@ table 50002 "Enrollment"
             var
                 Student: Record Student;
             begin
-                // Si el campo se vacía borramos los datos del alumno
                 if "Student No." = '' then begin
                     "Student Name" := '';
                     "Student Surname" := '';
                     "Student Address" := '';
                 end else begin
-                    // Cargamos el registro del alumno seleccionado
                     Student.Get("Student No.");
-                    // Copiamos sus datos en la matrícula para guardarlos
-                    // Estos campos tienen Editable = false, solo se rellenan aquí
                     "Student Name" := Student.Name;
                     "Student Surname" := Student.Surname;
                     "Student Address" := Student.Address;
@@ -40,7 +36,6 @@ table 50002 "Enrollment"
         {
             Caption = 'Nombre Alumno';
             DataClassification = CustomerContent;
-            // El usuario no puede editar este campo, se rellena solo al validar Student No.
             Editable = false;
         }
         field(11; "Student Surname"; Text[30])
@@ -59,6 +54,12 @@ table 50002 "Enrollment"
         {
             Caption = 'Importe';
             DataClassification = CustomerContent;
+        }
+        field(25; "Invoice Generated"; Boolean)
+        {
+            Caption = 'Factura Generada';
+            DataClassification = CustomerContent;
+            Editable = false;
         }
     }
 

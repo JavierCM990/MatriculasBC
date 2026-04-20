@@ -35,4 +35,30 @@ codeunit 50000 "Enrollment Mgt."
             Course."No." := NoSeries.GetNextNo(EnrollmentSetup."Course Nos.");
         end;
     end;
+
+    procedure CreateCustomer(var Student: Record Student)
+    var
+        Customer: Record Customer;
+        EnrollmentSetup: Record "Enrollment Setup";
+    begin
+        // Compruebo que el alumno no tiene ya un cliente asociado
+        if Student."Customer No." <> '' then
+            Error('Este alumno ya tiene un cliente asociado: %1', Student."Customer No.");
+
+        EnrollmentSetup.Get();
+        EnrollmentSetup.TestField("Student Posting Group");
+
+        // Creando el cliente a partir de los datos del alumno
+        Customer.Init();
+        Customer.Insert(true);
+        Customer.Name := Student.Name + ' ' + Student.Surname;
+        Customer.Address := Student.Address;
+        Customer."Phone No." := Student."Phone No.";
+        Customer."Customer Posting Group" := EnrollmentSetup."Student Posting Group";
+        Customer.Modify();
+        Student."Customer No." := Customer."No.";
+        Student.Modify();
+
+        Message('Cliente %1 creado correctamente.', Customer."No.");
+    end;
 }
