@@ -141,6 +141,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Enrollment Setup - Field Enrollment Nos. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 690912797 - Field 1466558203 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Line Description</source>
+          <target>Descripción Línea Factura</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Enrollment Setup - Field Invoice Line Description - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 690912797 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Primary Key</source>
           <target>Clave Principal</target>
@@ -422,6 +428,12 @@
           <target>Nº Serie Matrículas</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Enrollment Setup - Control Enrollment Nos. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 690912797 - Control 1466558203 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Line Description</source>
+          <target>Descripción Línea Factura</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Enrollment Setup - Control Invoice Line Description - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 690912797 - Control 2445566274 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sales Account No.</source>

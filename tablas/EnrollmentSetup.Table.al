@@ -45,6 +45,11 @@ table 50005 "Enrollment Setup"
             DataClassification = CustomerContent;
             TableRelation = "G/L Account"."No.";
         }
+        field(50; "Invoice Line Description"; Text[100])
+        {
+            Caption = 'Invoice Line Description';
+            DataClassification = CustomerContent;
+        }
     }
 
     keys

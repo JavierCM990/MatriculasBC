@@ -44,6 +44,11 @@ page 50040 "Enrollment Setup"
                     Caption = 'Sales Account No.';
                     ApplicationArea = All;
                 }
+                field("Invoice Line Description"; Rec."Invoice Line Description")
+                {
+                    Caption = 'Invoice Line Description';
+                    ApplicationArea = All;
+                }
             }
         }
     }
