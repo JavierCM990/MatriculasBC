@@ -53,4 +53,25 @@ page 50010 "Enrollment Card"
             }
         }
     }
+    actions
+    {
+        area(Processing)
+        {
+            action(CreateInvoice)
+            {
+                Caption = 'Crear factura';
+                ApplicationArea = All;
+                Image = Invoice;
+                Promoted = true;
+                PromotedCategory = Process;
+
+                trigger OnAction()
+                var
+                    EnrollmentMgt: Codeunit "Enrollment Mgt.";
+                begin
+                    EnrollmentMgt.CreateInvoice(Rec);
+                end;
+            }
+        }
+    }
 }
