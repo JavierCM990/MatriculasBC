@@ -129,4 +129,15 @@ codeunit 50000 "Enrollment Mgt."
         StudentLedgerEntry."Invoice Amount" := Enrollment.Amount;
         StudentLedgerEntry.Insert();
     end;
+
+    // Procedimiento para desmarcar la generación de factura
+    procedure UncheckInvoiceGenerated(var Enrollment: Record Enrollment)
+    begin
+        if not Enrollment."Invoice Generated" then
+            Error('Esta matrícula no tiene ninguna factura generada');
+
+        Enrollment."Invoice Generated" := false;
+        Enrollment.Modify();
+        Message('Factura desmarcada');
+    end;
 }

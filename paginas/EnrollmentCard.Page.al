@@ -72,6 +72,21 @@ page 50010 "Enrollment Card"
                     EnrollmentMgt.CreateInvoice(Rec);
                 end;
             }
+
+            action(UncheckInvoice)
+            {
+                Caption = 'Desmarcar factura generada';
+                ApplicationArea = All;
+                Promoted = true;
+                PromotedCategory = Process;
+
+                trigger OnAction()
+                var
+                    EnrollmentMgt: Codeunit "Enrollment Mgt.";
+                begin
+                    EnrollmentMgt.UncheckInvoiceGenerated(Rec);
+                end;
+            }
         }
     }
 }
