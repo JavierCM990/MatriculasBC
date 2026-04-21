@@ -1,23 +1,23 @@
 table 50004 "Course"
 {
-    Caption = 'Asignatura';
+    Caption = 'Course';
     DataClassification = CustomerContent;
 
     fields
     {
         field(1; "No."; Code[10])
         {
-            Caption = 'No. Asignatura';
+            Caption = 'Course No.';
             DataClassification = CustomerContent;
         }
         field(2; Description; Text[30])
         {
-            Caption = 'Descripción';
+            Caption = 'Description';
             DataClassification = CustomerContent;
         }
         field(3; Credits; Decimal)
         {
-            Caption = 'Créditos';
+            Caption = 'Credits';
             DataClassification = CustomerContent;
         }
     }

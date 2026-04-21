@@ -1,40 +1,40 @@
 table 50003 "Enrollment Line"
 {
-    Caption = 'Detalle Matrícula';
+    Caption = 'Enrollment Line';
     DataClassification = CustomerContent;
 
     fields
     {
         field(1; "Enrollment No."; Code[10])
         {
-            Caption = 'No. Matrícula';
+            Caption = 'Enrollment No.';
             DataClassification = CustomerContent;
             TableRelation = Enrollment."No.";
         }
         field(2; "Line No."; Integer)
         {
-            Caption = 'No. Línea';
+            Caption = 'Line No.';
             DataClassification = CustomerContent;
         }
         field(5; "Course No."; Code[10])
         {
-            Caption = 'No. Asignatura';
+            Caption = 'Course No.';
             DataClassification = CustomerContent;
             TableRelation = Course."No.";
         }
         field(6; Description; Text[30])
         {
-            Caption = 'Descripción';
+            Caption = 'Description';
             DataClassification = CustomerContent;
         }
         field(10; Credits; Decimal)
         {
-            Caption = 'Créditos';
+            Caption = 'Credits';
             DataClassification = CustomerContent;
         }
         field(11; Amount; Decimal)
         {
-            Caption = 'Importe';
+            Caption = 'Amount';
             DataClassification = CustomerContent;
         }
     }

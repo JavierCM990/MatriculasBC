@@ -1,6 +1,6 @@
 page 50000 "Student Card"
 {
-    Caption = 'Ficha Alumno';
+    Caption = 'Student Card';
     PageType = Card;
     SourceTable = Student;
     ApplicationArea = All;
@@ -21,42 +21,42 @@ page 50000 "Student Card"
                 }
                 field(Name; Rec.Name)
                 {
-                    Caption = 'Nombre';
+                    Caption = 'Name';
                     ApplicationArea = All;
                 }
                 field(Surname; Rec.Surname)
                 {
-                    Caption = 'Apellidos';
+                    Caption = 'Surname';
                     ApplicationArea = All;
                 }
                 field(Address; Rec.Address)
                 {
-                    Caption = 'Dirección';
+                    Caption = 'Address';
                     ApplicationArea = All;
                 }
                 field("Phone No."; Rec."Phone No.")
                 {
-                    Caption = 'Teléfono';
+                    Caption = 'Phone No.';
                     ApplicationArea = All;
                 }
                 field("Phone No. 2"; Rec."Phone No. 2")
                 {
-                    Caption = 'Teléfono 2';
+                    Caption = 'Phone No. 2';
                     ApplicationArea = All;
                 }
                 field("Birth Date"; Rec."Birth Date")
                 {
-                    Caption = 'Fecha Nacimiento';
+                    Caption = 'Birth Date';
                     ApplicationArea = All;
                 }
                 field(Comment; Rec.Comment)
                 {
-                    Caption = 'Comentario';
+                    Caption = 'Comment';
                     ApplicationArea = All;
                 }
                 field("Customer No."; Rec."Customer No.")
                 {
-                    Caption = 'No. Cliente';
+                    Caption = 'Customer No.';
                     ApplicationArea = All;
                     Editable = false;
                 }
@@ -69,7 +69,7 @@ page 50000 "Student Card"
         {
             action(CreateCustomer)
             {
-                Caption = 'Crear Cliente';
+                Caption = 'Create Customer';
                 ApplicationArea = All;
                 Image = Customer;
                 Promoted = true;

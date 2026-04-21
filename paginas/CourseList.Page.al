@@ -1,6 +1,6 @@
 page 50030 "Course List"
 {
-    Caption = 'Asignaturas';
+    Caption = 'Course List';
     PageType = List;
     SourceTable = Course;
     ApplicationArea = All;
@@ -19,12 +19,12 @@ page 50030 "Course List"
                 }
                 field(Description; Rec.Description)
                 {
-                    Caption = 'Descripción';
+                    Caption = 'Description';
                     ApplicationArea = All;
                 }
                 field(Credits; Rec.Credits)
                 {
-                    Caption = 'Créditos';
+                    Caption = 'Credits';
                     ApplicationArea = All;
                 }
             }

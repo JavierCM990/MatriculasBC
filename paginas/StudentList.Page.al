@@ -1,6 +1,6 @@
 page 50001 "Student List"
 {
-    Caption = 'Lista Alumnos';
+    Caption = 'Student List';
     PageType = List;
     SourceTable = Student;
     CardPageId = "Student Card";
@@ -20,22 +20,22 @@ page 50001 "Student List"
                 }
                 field(Name; Rec.Name)
                 {
-                    Caption = 'Nombre';
+                    Caption = 'Name';
                     ApplicationArea = All;
                 }
                 field(Surname; Rec.Surname)
                 {
-                    Caption = 'Apellidos';
+                    Caption = 'Surname';
                     ApplicationArea = All;
                 }
                 field(Address; Rec.Address)
                 {
-                    Caption = 'Dirección';
+                    Caption = 'Address';
                     ApplicationArea = All;
                 }
                 field("Phone No."; Rec."Phone No.")
                 {
-                    Caption = 'Teléfono';
+                    Caption = 'Phone No.';
                     ApplicationArea = All;
                 }
             }

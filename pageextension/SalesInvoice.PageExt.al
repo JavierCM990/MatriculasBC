@@ -6,7 +6,7 @@ pageextension 50000 "Sales Invoice Ext." extends "Sales Invoice"
         {
             field("Enrollment No."; Rec."Enrollment No.")
             {
-                Caption = 'No. Matrícula';
+                Caption = 'Enrollment No.';
                 ApplicationArea = All;
                 Editable = false;
             }

@@ -1,6 +1,6 @@
 page 50011 "Enrollment List"
 {
-    Caption = 'Lista Matrículas';
+    Caption = 'Enrollment List';
     PageType = List;
     SourceTable = Enrollment;
     CardPageId = "Enrollment Card";
@@ -20,22 +20,22 @@ page 50011 "Enrollment List"
                 }
                 field("Student No."; Rec."Student No.")
                 {
-                    Caption = 'No. Alumno';
+                    Caption = 'Student No.';
                     ApplicationArea = All;
                 }
                 field("Student Name"; Rec."Student Name")
                 {
-                    Caption = 'Nombre Alumno';
+                    Caption = 'Student Name';
                     ApplicationArea = All;
                 }
                 field("Student Surname"; Rec."Student Surname")
                 {
-                    Caption = 'Apellidos Alumno';
+                    Caption = 'Student Surname';
                     ApplicationArea = All;
                 }
                 field(Amount; Rec.Amount)
                 {
-                    Caption = 'Importe';
+                    Caption = 'Amount';
                     ApplicationArea = All;
                 }
             }

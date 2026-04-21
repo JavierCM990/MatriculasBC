@@ -1,6 +1,6 @@
 page 50012 "Enrollment Subform"
 {
-    Caption = 'Detalle Matrícula';
+    Caption = 'Enrollment Subform';
     PageType = ListPart;
     SourceTable = "Enrollment Line";
     ApplicationArea = All;
@@ -13,32 +13,32 @@ page 50012 "Enrollment Subform"
             {
                 field("Enrollment No."; Rec."Enrollment No.")
                 {
-                    Caption = 'No. Matrícula';
+                    Caption = 'Enrollment No.';
                     ApplicationArea = All;
                 }
                 field("Line No."; Rec."Line No.")
                 {
-                    Caption = 'No. Línea';
+                    Caption = 'Line No.';
                     ApplicationArea = All;
                 }
                 field("Course No."; Rec."Course No.")
                 {
-                    Caption = 'No. Asignatura';
+                    Caption = 'Course No.';
                     ApplicationArea = All;
                 }
                 field(Description; Rec.Description)
                 {
-                    Caption = 'Descripción';
+                    Caption = 'Description';
                     ApplicationArea = All;
                 }
                 field(Credits; Rec.Credits)
                 {
-                    Caption = 'Créditos';
+                    Caption = 'Credits';
                     ApplicationArea = All;
                 }
                 field(Amount; Rec.Amount)
                 {
-                    Caption = 'Importe';
+                    Caption = 'Amount';
                     ApplicationArea = All;
                 }
             }

@@ -1,6 +1,6 @@
 table 50002 "Enrollment"
 {
-    Caption = 'Matrícula';
+    Caption = 'Enrollment';
     DataClassification = CustomerContent;
 
     fields
@@ -12,7 +12,7 @@ table 50002 "Enrollment"
         }
         field(5; "Student No."; Code[10])
         {
-            Caption = 'No. Alumno';
+            Caption = 'Student No.';
             DataClassification = CustomerContent;
             TableRelation = Student."No.";
 
@@ -34,30 +34,30 @@ table 50002 "Enrollment"
         }
         field(10; "Student Name"; Text[30])
         {
-            Caption = 'Nombre Alumno';
+            Caption = 'Student Name';
             DataClassification = CustomerContent;
             Editable = false;
         }
         field(11; "Student Surname"; Text[30])
         {
-            Caption = 'Apellidos Alumno';
+            Caption = 'Student Surname';
             DataClassification = CustomerContent;
             Editable = false;
         }
         field(12; "Student Address"; Text[30])
         {
-            Caption = 'Dirección Alumno';
+            Caption = 'Student Address';
             DataClassification = CustomerContent;
             Editable = false;
         }
         field(20; Amount; Decimal)
         {
-            Caption = 'Importe';
+            Caption = 'Amount';
             DataClassification = CustomerContent;
         }
         field(25; "Invoice Generated"; Boolean)
         {
-            Caption = 'Factura Generada';
+            Caption = 'Invoice Generated';
             DataClassification = CustomerContent;
             Editable = false;
         }

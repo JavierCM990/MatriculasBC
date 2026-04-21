@@ -1,6 +1,6 @@
 page 50010 "Enrollment Card"
 {
-    Caption = 'Matrícula';
+    Caption = 'Enrollment Card';
     PageType = Card;
     SourceTable = Enrollment;
     ApplicationArea = All;
@@ -21,33 +21,33 @@ page 50010 "Enrollment Card"
                 }
                 field("Student No."; Rec."Student No.")
                 {
-                    Caption = 'No. Alumno';
+                    Caption = 'Student No.';
                     ApplicationArea = All;
                 }
                 field("Student Name"; Rec."Student Name")
                 {
-                    Caption = 'Nombre Alumno';
+                    Caption = 'Student Name';
                     ApplicationArea = All;
                 }
                 field("Student Surname"; Rec."Student Surname")
                 {
-                    Caption = 'Apellidos Alumno';
+                    Caption = 'Student Surname';
                     ApplicationArea = All;
                 }
                 field("Student Address"; Rec."Student Address")
                 {
-                    Caption = 'Dirección Alumno';
+                    Caption = 'Student Address';
                     ApplicationArea = All;
                 }
                 field(Amount; Rec.Amount)
                 {
-                    Caption = 'Importe';
+                    Caption = 'Amount';
                     ApplicationArea = All;
                 }
             }
             part(EnrollmentLines; "Enrollment Subform")
             {
-                Caption = 'Detalle Matrícula';
+                Caption = 'Enrollment Lines';
                 ApplicationArea = All;
                 SubPageLink = "Enrollment No." = field("No.");
             }
@@ -59,7 +59,7 @@ page 50010 "Enrollment Card"
         {
             action(CreateInvoice)
             {
-                Caption = 'Crear factura';
+                Caption = 'Create Invoice';
                 ApplicationArea = All;
                 Image = Invoice;
                 Promoted = true;
@@ -75,7 +75,7 @@ page 50010 "Enrollment Card"
 
             action(UncheckInvoice)
             {
-                Caption = 'Desmarcar factura generada';
+                Caption = 'Uncheck Invoice';
                 ApplicationArea = All;
                 Promoted = true;
                 PromotedCategory = Process;

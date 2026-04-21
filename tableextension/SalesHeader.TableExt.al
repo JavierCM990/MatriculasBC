@@ -4,7 +4,7 @@ tableextension 50000 "Sales Header Ext." extends "Sales Header"
     {
         field(50000; "Enrollment No."; Code[10])
         {
-            Caption = 'No. Matrícula';
+            Caption = 'Enrollment No.';
             DataClassification = CustomerContent;
             TableRelation = Enrollment."No.";
         }

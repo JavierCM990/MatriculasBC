@@ -1,53 +1,53 @@
 table 50000 "Student"
 {
-    Caption = 'Alumno';
+    Caption = 'Student';
     DataClassification = CustomerContent;
 
     fields
     {
         field(1; "No."; Code[10])
         {
-            Caption = 'No. Alumno';
+            Caption = 'Student No.';
             DataClassification = CustomerContent;
         }
         field(5; Name; Text[30])
         {
-            Caption = 'Nombre';
+            Caption = 'Name';
             DataClassification = CustomerContent;
         }
         field(6; Surname; Text[30])
         {
-            Caption = 'Apellidos';
+            Caption = 'Surname';
             DataClassification = CustomerContent;
         }
         field(10; Address; Text[30])
         {
-            Caption = 'Dirección';
+            Caption = 'Address';
             DataClassification = CustomerContent;
         }
         field(11; "Phone No."; Text[30])
         {
-            Caption = 'Teléfono';
+            Caption = 'Phone No.';
             DataClassification = CustomerContent;
         }
         field(12; "Phone No. 2"; Text[30])
         {
-            Caption = 'Teléfono 2';
+            Caption = 'Phone No. 2';
             DataClassification = CustomerContent;
         }
         field(20; "Birth Date"; Date)
         {
-            Caption = 'Fecha Nacimiento';
+            Caption = 'Birth Date';
             DataClassification = CustomerContent;
         }
         field(30; Comment; Boolean)
         {
-            Caption = 'Comentario';
+            Caption = 'Comment';
             DataClassification = CustomerContent;
         }
         field(40; "Customer No."; Code[20])
         {
-            Caption = 'No. Cliente';
+            Caption = 'Customer No.';
             DataClassification = CustomerContent;
             TableRelation = Customer."No.";
         }

@@ -1,6 +1,6 @@
 page 50002 "Student Ledger Entries"
 {
-    Caption = 'Mov. Alumnos';
+    Caption = 'Student Ledger Entries';
     PageType = List;
     SourceTable = "Student Ledger Entry";
     ApplicationArea = All;
@@ -15,32 +15,32 @@ page 50002 "Student Ledger Entries"
             {
                 field("Entry No."; Rec."Entry No.")
                 {
-                    Caption = 'No. Movimiento';
+                    Caption = 'Entry No.';
                     ApplicationArea = All;
                 }
                 field("Student No."; Rec."Student No.")
                 {
-                    Caption = 'No. Alumno';
+                    Caption = 'Student No.';
                     ApplicationArea = All;
                 }
                 field("Posting Date"; Rec."Posting Date")
                 {
-                    Caption = 'Fecha Registro';
+                    Caption = 'Posting Date';
                     ApplicationArea = All;
                 }
                 field("Invoice No."; Rec."Invoice No.")
                 {
-                    Caption = 'No. Factura';
+                    Caption = 'Invoice No.';
                     ApplicationArea = All;
                 }
                 field("Invoice Amount"; Rec."Invoice Amount")
                 {
-                    Caption = 'Importe Factura';
+                    Caption = 'Invoice Amount';
                     ApplicationArea = All;
                 }
                 field("Posted Invoice No."; Rec."Posted Invoice No.")
                 {
-                    Caption = 'No. Factura Registrada';
+                    Caption = 'Posted Invoice No.';
                     ApplicationArea = All;
                 }
             }

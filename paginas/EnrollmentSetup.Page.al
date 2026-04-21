@@ -1,6 +1,6 @@
 page 50040 "Enrollment Setup"
 {
-    Caption = 'Configuración Matrículas';
+    Caption = 'Enrollment Setup';
     PageType = Card;
     SourceTable = "Enrollment Setup";
     ApplicationArea = All;
@@ -16,32 +16,32 @@ page 50040 "Enrollment Setup"
 
                 field("Student Nos."; Rec."Student Nos.")
                 {
-                    Caption = 'No. Serie Alumnos';
+                    Caption = 'Student Nos.';
                     ApplicationArea = All;
                 }
                 field("Enrollment Nos."; Rec."Enrollment Nos.")
                 {
-                    Caption = 'No. Serie Matrículas';
+                    Caption = 'Enrollment Nos.';
                     ApplicationArea = All;
                 }
                 field("Course Nos."; Rec."Course Nos.")
                 {
-                    Caption = 'No. Serie Asignaturas';
+                    Caption = 'Course Nos.';
                     ApplicationArea = All;
                 }
                 field("Student Posting Group"; Rec."Student Posting Group")
                 {
-                    Caption = 'Grupo Contable Alumnos';
+                    Caption = 'Student Posting Group';
                     ApplicationArea = All;
                 }
                 field("Credit Price"; Rec."Credit Price")
                 {
-                    Caption = 'Precio Crédito';
+                    Caption = 'Credit Price';
                     ApplicationArea = All;
                 }
                 field("Sales Account No."; Rec."Sales Account No.")
                 {
-                    Caption = 'No. Cuenta Ventas';
+                    Caption = 'Sales Account No.';
                     ApplicationArea = All;
                 }
             }

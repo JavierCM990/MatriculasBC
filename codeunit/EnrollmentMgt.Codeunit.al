@@ -46,7 +46,7 @@ codeunit 50000 "Enrollment Mgt."
         EnrollmentSetup: Record "Enrollment Setup";
     begin
         if Student."Customer No." <> '' then
-            Error('Este alumno ya tiene un cliente asociado: %1', Student."Customer No.");
+            Error('This student already has an associated customer: %1', Student."Customer No.");
 
         EnrollmentSetup.Get();
         EnrollmentSetup.TestField("Student Posting Group");
@@ -62,7 +62,7 @@ codeunit 50000 "Enrollment Mgt."
         Student."Customer No." := Customer."No.";
         Student.Modify();
 
-        Message('Cliente %1 creado correctamente.', Customer."No.");
+        Message('Customer %1 created successfully.', Customer."No.");
     end;
 
     // Procedimiento para crear una factura a partir de una matrícula
@@ -74,12 +74,11 @@ codeunit 50000 "Enrollment Mgt."
         EnrollmentSetup: Record "Enrollment Setup";
     begin
         if Enrollment."Invoice Generated" then
-            Error('Ya se ha generado una factura para esta matrícula.');
+            Error('This enrollment already has a generated invoice.');
 
         Student.Get(Enrollment."Student No.");
         if Student."Customer No." = '' then
-            Error('El alumno no tiene un cliente asociado. Por favor, cree un cliente antes de generar la factura.');
-
+            Error('The student does not have an associated customer. Please create a customer before generating the invoice.');
         // Cargando la configuración de matrícula
         EnrollmentSetup.Get();
         EnrollmentSetup.TestField("Sales Account No.");
@@ -114,7 +113,7 @@ codeunit 50000 "Enrollment Mgt."
         Enrollment."Invoice Generated" := true;
         Enrollment.Modify();
 
-        Message('Factura %1 creada correctamente', SalesHeader."No.");
+        Message('Invoice %1 created successfully.', SalesHeader."No.");
     end;
 
     // Procedimiento para crear un movimiento de alumno al generar la factura
@@ -134,10 +133,10 @@ codeunit 50000 "Enrollment Mgt."
     procedure UncheckInvoiceGenerated(var Enrollment: Record Enrollment)
     begin
         if not Enrollment."Invoice Generated" then
-            Error('Esta matrícula no tiene ninguna factura generada');
+            Error('This enrollment does not have any generated invoice.');
 
         Enrollment."Invoice Generated" := false;
         Enrollment.Modify();
-        Message('Factura desmarcada');
+        Message('Invoice %1 unchecked successfully.', Enrollment."No.");
     end;
 }
