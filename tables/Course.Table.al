@@ -5,12 +5,12 @@ table 50004 "Course"
 
     fields
     {
-        field(1; "No."; Code[10])
+        field(1; "No."; Code[20])
         {
             Caption = 'Course No.';
             DataClassification = CustomerContent;
         }
-        field(2; Description; Text[30])
+        field(2; Description; Text[100])
         {
             Caption = 'Description';
             DataClassification = CustomerContent;

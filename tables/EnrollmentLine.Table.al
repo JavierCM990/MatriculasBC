@@ -5,7 +5,7 @@ table 50003 "Enrollment Line"
 
     fields
     {
-        field(1; "Enrollment No."; Code[10])
+        field(1; "Enrollment No."; Code[20])
         {
             Caption = 'Enrollment No.';
             DataClassification = CustomerContent;
@@ -16,13 +16,13 @@ table 50003 "Enrollment Line"
             Caption = 'Line No.';
             DataClassification = CustomerContent;
         }
-        field(5; "Course No."; Code[10])
+        field(5; "Course No."; Code[20])
         {
             Caption = 'Course No.';
             DataClassification = CustomerContent;
             TableRelation = Course."No.";
         }
-        field(6; Description; Text[30])
+        field(6; Description; Text[100])
         {
             Caption = 'Description';
             DataClassification = CustomerContent;

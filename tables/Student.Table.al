@@ -5,22 +5,22 @@ table 50000 "Student"
 
     fields
     {
-        field(1; "No."; Code[10])
+        field(1; "No."; Code[20])
         {
             Caption = 'Student No.';
             DataClassification = CustomerContent;
         }
-        field(5; Name; Text[30])
+        field(5; Name; Text[100])
         {
             Caption = 'Name';
             DataClassification = CustomerContent;
         }
-        field(6; Surname; Text[30])
+        field(6; Surname; Text[50])
         {
             Caption = 'Surname';
             DataClassification = CustomerContent;
         }
-        field(10; Address; Text[30])
+        field(10; Address; Text[100])
         {
             Caption = 'Address';
             DataClassification = CustomerContent;

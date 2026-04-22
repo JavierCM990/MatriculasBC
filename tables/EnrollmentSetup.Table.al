@@ -10,19 +10,19 @@ table 50005 "Enrollment Setup"
             Caption = 'Primary Key';
             DataClassification = CustomerContent;
         }
-        field(5; "Student Nos."; Code[10])
+        field(5; "Student Nos."; Code[20])
         {
             Caption = 'Student Nos.';
             DataClassification = CustomerContent;
             TableRelation = "No. Series".Code;
         }
-        field(6; "Enrollment Nos."; Code[10])
+        field(6; "Enrollment Nos."; Code[20])
         {
             Caption = 'Enrollment Nos.';
             DataClassification = CustomerContent;
             TableRelation = "No. Series".Code;
         }
-        field(7; "Course Nos."; Code[10])
+        field(7; "Course Nos."; Code[20])
         {
             Caption = 'Course Nos.';
             DataClassification = CustomerContent;

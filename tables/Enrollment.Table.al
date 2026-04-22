@@ -5,12 +5,12 @@ table 50002 "Enrollment"
 
     fields
     {
-        field(1; "No."; Code[10])
+        field(1; "No."; Code[20])
         {
             Caption = 'No.';
             DataClassification = CustomerContent;
         }
-        field(5; "Student No."; Code[10])
+        field(5; "Student No."; Code[20])
         {
             Caption = 'Student No.';
             DataClassification = CustomerContent;
@@ -32,19 +32,19 @@ table 50002 "Enrollment"
                 end;
             end;
         }
-        field(10; "Student Name"; Text[30])
+        field(10; "Student Name"; Text[100])
         {
             Caption = 'Student Name';
             DataClassification = CustomerContent;
             Editable = false;
         }
-        field(11; "Student Surname"; Text[30])
+        field(11; "Student Surname"; Text[50])
         {
             Caption = 'Student Surname';
             DataClassification = CustomerContent;
             Editable = false;
         }
-        field(12; "Student Address"; Text[30])
+        field(12; "Student Address"; Text[100])
         {
             Caption = 'Student Address';
             DataClassification = CustomerContent;

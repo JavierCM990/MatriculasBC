@@ -11,7 +11,7 @@ table 50001 "Student Ledger Entry"
             DataClassification = CustomerContent;
             AutoIncrement = true;
         }
-        field(2; "Student No."; Code[10])
+        field(2; "Student No."; Code[20])
         {
             Caption = 'Student No.';
             DataClassification = CustomerContent;
@@ -22,7 +22,7 @@ table 50001 "Student Ledger Entry"
             Caption = 'Posting Date';
             DataClassification = CustomerContent;
         }
-        field(4; "Invoice No."; Code[10])
+        field(4; "Invoice No."; Code[20])
         {
             Caption = 'Invoice No.';
             DataClassification = CustomerContent;
@@ -33,7 +33,7 @@ table 50001 "Student Ledger Entry"
             Caption = 'Invoice Amount';
             DataClassification = CustomerContent;
         }
-        field(6; "Posted Invoice No."; Code[10])
+        field(6; "Posted Invoice No."; Code[20])
         {
             Caption = 'Posted Invoice No.';
             DataClassification = CustomerContent;
