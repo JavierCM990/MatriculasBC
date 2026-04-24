@@ -82,6 +82,18 @@ page 50000 "Student Card"
                     EnrollmentMgt.CreateCustomer(Rec);
                 end;
             }
+            action(Comments)
+            {
+                Caption = 'Comments';
+                ApplicationArea = All;
+                Image = ViewComments;
+                Promoted = true;
+                PromotedCategory = Process;
+                RunObject = Page "Comment Sheet";
+                RunPageLink = "Table Name" = const(Customer),
+                              "No." = field("No.");
+                ToolTip = 'View or add comments for the record.';
+            }
         }
     }
 }

@@ -51,6 +51,11 @@ table 50000 "Student"
             DataClassification = CustomerContent;
             TableRelation = Customer."No.";
         }
+        field(140; Image; Media)
+        {
+            Caption = 'Image';
+            DataClassification = CustomerContent;
+        }
     }
 
     keys

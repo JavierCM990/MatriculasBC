@@ -168,6 +168,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Student - Field Customer No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1418429579 - Field 320775665 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Image</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Student - Field Image - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1418429579 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -468,6 +473,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Student Card - Control Surname - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 709879359 - Action 503024588 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or add comments for the record.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Student Card - Action Comments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 709879359 - Action 503024588 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Student Card - Action Comments - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 709879359 - Action 2400675204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Create Customer</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -537,6 +552,76 @@
           <source>Surname</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Student List - Control Surname - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4245321878 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enrollment Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Enrollment Report - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4245321878 - ReportColumn 2269624384 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Course No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Enrollment Report - ReportColumn CourseNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4245321878 - ReportColumn 876067474 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credits</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Enrollment Report - ReportColumn Credits - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4245321878 - ReportColumn 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Enrollment Report - ReportColumn Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4245321878 - ReportColumn 4288636439 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enrollment No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Enrollment Report - ReportColumn EnrollmentNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4245321878 - ReportColumn 501972646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Enrollment Report - ReportColumn LineAmount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4245321878 - ReportColumn 1165969121 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Enrollment Report - ReportColumn LineNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4245321878 - ReportColumn 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Enrollment Report - ReportColumn Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4245321878 - ReportColumn 949215307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Enrollment Report - ReportColumn No - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4245321878 - ReportColumn 3364740305 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Student Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Enrollment Report - ReportColumn StudentAddress - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4245321878 - ReportColumn 3544683786 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Student Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Enrollment Report - ReportColumn StudentName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4245321878 - ReportColumn 1196472516 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Student No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Enrollment Report - ReportColumn StudentNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4245321878 - ReportColumn 4054289702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Student Surname</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Enrollment Report - ReportColumn StudentSurname - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4245321878 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Enrollment Report - Control General - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1846025290 - Control 2768890205 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
           <source>Enrollment No.</source>
