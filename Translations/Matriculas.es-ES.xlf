@@ -759,6 +759,94 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Ext. - Field Enrollment No. - Property Caption</note>
         </trans-unit>
+        
+        <!-- ENROLLMENT ACTIVITIES -->
+        <trans-unit id="Page 1036174073 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enrollment Activities</source>
+          <target>Actividades Matrículas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Enrollment Activities - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1036174073 - Control 239333745 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enrollments</source>
+          <target>Matrículas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Enrollment Activities - Control Enrollments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1036174073 - Control 1320125927 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Courses</source>
+          <target>Asignaturas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Enrollment Activities - Control CoursesCount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1036174073 - Control 3599845376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enrollments</source>
+          <target>Matrículas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Enrollment Activities - Control EnrollmentsCount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1036174073 - Control 612021867 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Students</source>
+          <target>Alumnos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Enrollment Activities - Control StudentsCount - Property Caption</note>
+        </trans-unit>
+
+        <!-- ROLE CENTER -->
+        <trans-unit id="Page 3879471637 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enrollment Role Center</source>
+          <target>Centro de Roles Matrículas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Enrollment Role Center - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3879471637 - Action 1569466922 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Administration</source>
+          <target>Administración</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Enrollment Role Center - Action Administration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3879471637 - Action 3114846453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enrollment Setup</source>
+          <target>Configuración Matrículas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Enrollment Role Center - Action EnrollmentSetup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3879471637 - Action 239333745 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enrollments</source>
+          <target>Matrículas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Enrollment Role Center - Action Enrollments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3879471637 - Action 2634244209 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Courses</source>
+          <target>Asignaturas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Enrollment Role Center - Action CourseList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3879471637 - Action 4008282490 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enrollments</source>
+          <target>Matrículas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Enrollment Role Center - Action EnrollmentList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3879471637 - Action 244912790 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Students</source>
+          <target>Alumnos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Enrollment Role Center - Action Students - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3879471637 - Action 3651866210 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Student Ledger Entries</source>
+          <target>Mov. Alumnos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Enrollment Role Center - Action StudentLedgerEntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3879471637 - Action 1276828917 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Students</source>
+          <target>Alumnos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Enrollment Role Center - Action StudentList - Property Caption</note>
+        </trans-unit>
       </group>
     </body>
   </file>
