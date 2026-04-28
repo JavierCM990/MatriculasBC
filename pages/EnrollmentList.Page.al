@@ -41,4 +41,26 @@ page 50011 "Enrollment List"
             }
         }
     }
+
+    actions
+    {
+        area(Processing)
+        {
+            action(ExportImport)
+            {
+                Caption = 'Export/Import';
+                ApplicationArea = All;
+                Image = XMLFile;
+                Promoted = true;
+                PromotedCategory = Process;
+
+                trigger OnAction()
+                var
+                    EnrollmentXmlport: XmlPort "Enrollment Xmlport";
+                begin
+                    EnrollmentXmlport.Run();
+                end;
+            }
+        }
+    }
 }

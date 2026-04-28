@@ -363,6 +363,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Enrollment List - Control Student Surname - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 4282477122 - Action 3231667347 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export/Import</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Enrollment List - Action ExportImport - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3879471637 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Enrollment Role Center</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -692,6 +697,11 @@
           <source>General</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Enrollment Report - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="XmlPort 338089528 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enrollment Xmlport</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort Enrollment Xmlport - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1846025290 - Control 2768890205 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
           <source>Enrollment No.</source>

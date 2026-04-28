@@ -1,0 +1,2 @@
+"MAT00003";"ALU00002";"Antonio";"Hern ndez Garc¡a";"calle Torre Aguga";"50,00";"MAT00003";"10000";"ASI00002";"Base de datos";"5,00";"50,00"
+

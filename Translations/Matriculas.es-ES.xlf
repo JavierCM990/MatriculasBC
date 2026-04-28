@@ -847,6 +847,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Enrollment Role Center - Action StudentList - Property Caption</note>
         </trans-unit>
+        
+        <!-- XMLPORT -->
+        <trans-unit id="XmlPort 338089528 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enrollment Xmlport</source>
+          <target>XMLport Matrículas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort Enrollment Xmlport - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4282477122 - Action 3231667347 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export/Import</source>
+          <target>Exportar/Importar</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Enrollment List - Action ExportImport - Property Caption</note>
+        </trans-unit>
       </group>
     </body>
   </file>
