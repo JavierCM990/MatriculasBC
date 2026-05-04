@@ -44,6 +44,11 @@ page 50010 "Enrollment Card"
                     Caption = 'Amount';
                     ApplicationArea = All;
                 }
+                field("Invoice Generated"; Rec."Invoice Generated")
+                {
+                    Caption = 'Invoice Generated';
+                    ApplicationArea = All;
+                }
             }
             part(EnrollmentLines; "Enrollment Subform")
             {

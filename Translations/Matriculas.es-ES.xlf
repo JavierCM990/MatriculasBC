@@ -861,6 +861,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Enrollment List - Action ExportImport - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 124463556 - Control 4287454738 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Generated</source>
+          <target>Factura Generada</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Enrollment Card - Control Invoice Generated - Property Caption</note>
+        </trans-unit>
       </group>
     </body>
   </file>

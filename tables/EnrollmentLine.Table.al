@@ -21,6 +21,18 @@ table 50003 "Enrollment Line"
             Caption = 'Course No.';
             DataClassification = CustomerContent;
             TableRelation = Course."No.";
+
+            trigger OnValidate()
+            var
+                Course: Record Course;
+            begin
+                if "Course No." = '' then
+                    Description := ''
+                else begin
+                    Course.Get("Course No.");
+                    Description := Course.Description;
+                end;
+            end;
         }
         field(6; Description; Text[100])
         {

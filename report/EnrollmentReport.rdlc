@@ -11,7 +11,7 @@
       <am:Name>MSRB</am:Name>
       <am:Version>15.1.30001.02</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2026-04-24T11:28:27.3299265Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2026-05-04T14:40:07.1683542Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
@@ -699,7 +699,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Sum(Fields!LineAmount.Value)</Value>
+                                  <Value>=Sum(Fields!LineAmount.Value, "DataSet_Result")</Value>
                                   <Style />
                                 </TextRun>
                               </TextRuns>
@@ -733,12 +733,8 @@
             </TablixColumnHierarchy>
             <TablixRowHierarchy>
               <TablixMembers>
-                <TablixMember>
-                  <KeepWithGroup>After</KeepWithGroup>
-                </TablixMember>
-                <TablixMember>
-                  <KeepWithGroup>After</KeepWithGroup>
-                </TablixMember>
+                <TablixMember />
+                <TablixMember />
                 <TablixMember>
                   <Group Name="Detalles" />
                 </TablixMember>
@@ -747,7 +743,7 @@
             <Top>3.86532in</Top>
             <Left>0.47444in</Left>
             <Height>0.75in</Height>
-            <Width>4.94511in</Width>
+            <Width>4.9451in</Width>
             <ZIndex>10</ZIndex>
             <Style>
               <Border>
